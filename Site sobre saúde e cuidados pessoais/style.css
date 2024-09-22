@@ -1,0 +1,73 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Menu expansivo */
+  .menu-hamburguer {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  .menu-aberto {
+    display: block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    padding: 8px;
+    background-color: #f2f2f2;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Seções */
+  section {
+    padding: 20px;
+  }
+  
+  /* Estilos para a calculadora de IMC */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  form label, form input, form button {
+    margin: 10px 0;
+  }
+  
+  /* Design responsivo */
+  @media (min-width: 600px) {
+    nav ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
